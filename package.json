@@ -1,11 +1,12 @@
 {
   "scripts": {
     "lint:fix": "prettier */*.js \"*/**/*{.js,.ts}\" -w",
+    "allowed-tokens": "node client/get-allowed-tokens.js",
     "lint": "prettier */*.js \"*/**/*{.js,.ts}\" --check"
   },
   "dependencies": {
     "@coral-xyz/anchor": "0.29.0",
-    "@solana/web3.js": "1.98.4",
+    "@solana/web3.js": "^1.98.4",
     "assert": "*",
     "bn.js": "*"
   },

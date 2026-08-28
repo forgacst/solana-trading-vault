@@ -17,6 +17,10 @@ if ! command -v solana-verify >/dev/null 2>&1; then
 fi
 
 echo
+echo "Installing Node dependencies..."
+npm ci
+
+echo
 echo "Rust:"
 rustc --version || true
 cargo --version || true
