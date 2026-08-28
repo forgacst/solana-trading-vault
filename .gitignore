@@ -1,3 +1,13 @@
 target/
 node_modules/
 package-lock.json
+
+# Solana build output
+target/
+
+# Local secrets / authority keys
+authority.json
+*.keypair.json
+
+# Local helper environment
+.pda-sender/
